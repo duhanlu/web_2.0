@@ -1,0 +1,50 @@
+
+.h1 {
+  font-size: xx-large;
+}
+.circle-home-img {
+    border-radius: 80%;
+    overflow: hidden;
+    width: 8cm;
+    height: 8cm;
+  }
+  .circle-home-img2 {
+    border-radius: 80%;
+    overflow: hidden;
+    width: 8cm;
+    height: 8cm;
+    margin-top: 100px;
+  }
+  .circle-home-img img {
+    width: 100%; /* Make the image fill the circle container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below the image */
+    margin-top: -50px;
+  }
+  .circle-home-img2 img {
+    width: 140%; /* Make the image fill the circle container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below the image */
+  }
+ .container {
+    display: flex; /* Use flexbox to create a flexible container */
+   margin-top: 200px;
+  }
+  .left-side {
+    margin-left: 5cm;
+    margin-top: -280px
+  }
+  .right-side {
+    margin-top: -250px;
+    margin-left:50px
+  }
+  .right-side img{
+    height:80%;
+    margin-top: -100px;
+    margin-left: 100px;
+  }
+  .home-text {
+    width: 60%;
+    margin-left: 250px;
+    margin-top: -50px;
+  }
