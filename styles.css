@@ -77,22 +77,18 @@ ul.header-list {
   li.about-list:not(:last-child) {
     margin-bottom: 2%; /* Adjust the margin for all items except the last one */
   }
+
   .life-first-row{
     display: flex;
   }
- 
   ul.life-first-row {
     list-style-type: none;
     text-align: center;
-    justify-content: -5%;  
-  }
-  .life-first-row{
-    block-size: 20%;
+    margin-left: -5%;
   }
   li.first-list img{
     width: 25%;
     height: 25%;
-
   }
   .first-list {
     list-style-type: none; /* Remove default list styling */
@@ -100,11 +96,9 @@ ul.header-list {
     margin-bottom: 0%;
     margin-top: 5%;
   }
-
   li.first-list:not(:last-child) {
     margin-right: -40%; /* Adjust the margin for all items except the last one */
   }
-
   /* Style for the linked image */
   .first-list a {
     display: block; /* Make the link a block-level element */
@@ -114,16 +108,12 @@ ul.header-list {
   .first-list span {
     display: block; /* Make the text a block-level element */
   }
-  ul.life-first-row {
-    list-style-type: none;
-    text-align: center;
-    margin-left: -20%;
-    
-  }
+  
 
   ul.life-second-row{
     margin-left: -5%;
   }
+
   li.second-list img{
     width: 25%;
     height: 25%;
@@ -135,7 +125,7 @@ ul.header-list {
     margin-left: -5%;
   }
   li.second-list:not(:last-child) {
-    margin-right: -37%; /* Adjust the margin for all items except the last one */
+    margin-right: -40%; /* Adjust the margin for all items except the last one */
   }
   .second-list a {
     display: block; /* Make the link a block-level element */
@@ -148,6 +138,7 @@ ul.header-list {
   .life-second-row{
     display: flex;
   }
+  
   ul.life-third-row{
     margin-left: -5%;
   }
@@ -166,7 +157,7 @@ ul.header-list {
     margin-left: -5%;
   }
   li.third-list:not(:last-child) {
-    margin-right: -37%; /* Adjust the margin for all items except the last one */
+    margin-right: -40%; /* Adjust the margin for all items except the last one */
   }
   .third-list a {
     display: block; /* Make the link a block-level element */
