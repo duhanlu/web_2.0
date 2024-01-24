@@ -78,92 +78,42 @@ ul.header-list {
     margin-bottom: 2%; /* Adjust the margin for all items except the last one */
   }
 
-  .life-first-row{
-    display: flex;
+  li.life-list1{
+    display: inline-block;
+    size: 40%;
   }
-  ul.life-first-row {
+
+  .life-list1 img {
+    width: 150px; /* Set the width of the images */
+    height: auto; /* Maintain the aspect ratio */
+    border: 2px solid #ddd; /* Optional: Add a border for visual clarity */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+  ul.life-list1 {
     list-style-type: none;
     text-align: center;
     margin-left: -5%;
+    width: 100%; /* Set the width of the list */
+    height: 100%;
   }
-  li.first-list img{
-    width: 25%;
-    height: 25%;
-  }
-  .first-list {
+  
+  .life-body {
     list-style-type: none; /* Remove default list styling */
     text-align: center; /* Center-align text */
     margin-bottom: 0%;
     margin-top: 5%;
   }
-  li.first-list:not(:last-child) {
-    margin-right: -40%; /* Adjust the margin for all items except the last one */
+
+  li.life-list1:not(:last-child) {
+    margin-right: 10%; /* Adjust the margin for all items except the last one */
   }
   /* Style for the linked image */
-  .first-list a {
+  .life-list1 a {
     display: block; /* Make the link a block-level element */
   }
 
   /* Style for the text under the image */
-  .first-list span {
+  .life-list1 span {
     display: block; /* Make the text a block-level element */
   }
-  
 
-  ul.life-second-row{
-    margin-left: -5%;
-  }
-
-  li.second-list img{
-    width: 25%;
-    height: 25%;
-  }
-  .second-list{
-    list-style-type: none; /* Remove default list styling */
-    text-align: center;
-    margin-bottom: 0%;
-    margin-left: -5%;
-  }
-  li.second-list:not(:last-child) {
-    margin-right: -40%; /* Adjust the margin for all items except the last one */
-  }
-  .second-list a {
-    display: block; /* Make the link a block-level element */
-  }
-
-  /* Style for the text under the image */
-  .second-list span {
-    display: block; /* Make the text a block-level element */
-  }
-  .life-second-row{
-    display: flex;
-  }
-  
-  ul.life-third-row{
-    margin-left: -5%;
-  }
-  .life-third-row{
-    display: flex;
-  }
-
-  li.third-list img{
-    width: 25%;
-    height: 25%;
-  }
-  .third-list{
-    list-style-type: none; /* Remove default list styling */
-    text-align: center;
-    margin-bottom: -3%;
-    margin-left: -5%;
-  }
-  li.third-list:not(:last-child) {
-    margin-right: -40%; /* Adjust the margin for all items except the last one */
-  }
-  .third-list a {
-    display: block; /* Make the link a block-level element */
-  }
-
-  /* Style for the text under the image */
-  .third-list span {
-    display: block; /* Make the text a block-level element */
-  }
