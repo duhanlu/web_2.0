@@ -1,19 +1,45 @@
 
-.h1 {
-  font-size: xx-large;
+h2 {
+  margin-left: 50px;
 }
-.circle-home-img {
-    border-radius: 80%;
-    overflow: hidden;
-    width: 8cm;
-    height: 8cm;
+ul.header-list {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+    margin-right: 10cm;
+    margin-top:-50px;
+    text-size-adjust: larger;
+
+   }
+/*
+li {
+    display: inline-block;
+    margin-left: 18px; 
   }
-  .circle-home-img2 {
+  */
+  li.header-list{
+    display: inline-block;
+    margin-left: 18px;
+  }
+  li.icon-list{
+    display: inline-block;
+    margin-left: 18px;
+  }
+  a {
+    text-decoration: none; /* Remove underline from links */
+    color: #04090f; /* Set the font color to blue (adjust as needed) */
+    font-size: 20px; /* Set the font size to 16 pixels (adjust as needed) */
+  }
+  a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  .circle-home-img {
     border-radius: 80%;
     overflow: hidden;
-    width: 8cm;
-    height: 8cm;
-    margin-top: 100px;
+    width: 7cm;
+    height: 7cm;
+    margin-top: 5cm;
+    margin-left: 14cm;
   }
   .circle-home-img img {
     width: 100%; /* Make the image fill the circle container */
@@ -21,30 +47,99 @@
     display: block; /* Remove extra space below the image */
     margin-top: -50px;
   }
-  .circle-home-img2 img {
-    width: 140%; /* Make the image fill the circle container */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove extra space below the image */
+  ul.home-icon-link {
+    text-align: center;
+    size-adjust: 10px;
+    margin-left:-150px;
   }
- .container {
-    display: flex; /* Use flexbox to create a flexible container */
-   margin-top: 200px;
+  li.home-icon-link{
+    display: inline-block;
+      margin-left: 5px;
   }
-  .left-side {
-    margin-left: 5cm;
-    margin-top: -280px
+  img {
+    width: 40px; /* Adjust the width of the icon */
+    height: 40px; /* Adjust the height of the icon */
+    margin-right: 5px; /* Adjust the spacing between the icon and text */
   }
-  .right-side {
-    margin-top: -250px;
-    margin-left:50px
+  .about-body{
+    display: flex;
   }
-  .right-side img{
-    height:80%;
-    margin-top: -100px;
-    margin-left: 100px;
+  .about-body-left {
+    margin-left: 2cm;
   }
-  .home-text {
-    width: 60%;
-    margin-left: 250px;
-    margin-top: -50px;
+  .about-body-right{
+    margin-top: 4cm;
+    margin-left: 2cm;
+  }
+  li.about-list{
+    margin-bottom: 5px;
+  }
+  li.about-list:not(:last-child) {
+    margin-bottom: 20px; /* Adjust the margin for all items except the last one */
+  }
+  .life-first-row{
+    display: flex;
+  }
+ 
+  ul.life-first-row {
+    list-style-type: none;
+    text-align: center;
+  }
+  li.first-list img{
+    width: 6cm;
+    height: 8cm;
+
+  }
+  .first-list {
+    list-style-type: none; /* Remove default list styling */
+    text-align: center; /* Center-align text */
+  }
+
+  /* Style for the linked image */
+  .first-list a {
+    display: block; /* Make the link a block-level element */
+  }
+
+  /* Style for the text under the image */
+  .first-list span {
+    display: block; /* Make the text a block-level element */
+  }
+  li.second-list img{
+    width: 6cm;
+    height: 8cm;
+  }
+  .second-list{
+    list-style-type: none; /* Remove default list styling */
+    text-align: center;
+  }
+  .second-list a {
+    display: block; /* Make the link a block-level element */
+  }
+
+  /* Style for the text under the image */
+  .second-list span {
+    display: block; /* Make the text a block-level element */
+  }
+  .life-second-row{
+    display: flex;
+  }
+  .life-third-row{
+    display: flex;
+  }
+
+  li.third-list img{
+    width: 6cm;
+    height: 8cm;
+  }
+  .third-list{
+    list-style-type: none; /* Remove default list styling */
+    text-align: center;
+  }
+  .third-list a {
+    display: block; /* Make the link a block-level element */
+  }
+
+  /* Style for the text under the image */
+  .third-list span {
+    display: block; /* Make the text a block-level element */
   }
