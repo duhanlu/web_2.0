@@ -32,7 +32,7 @@ ul.header-list {
     width: 20%; /* Adjust the percentage as needed for a smaller circle */
     height: 20%;
     border-radius:50%;
-    margin-top: 10%;
+    margin-top: 12%;
     margin-left: 40%;
   }
   .home-circle{
@@ -84,8 +84,10 @@ ul.header-list {
   ul.life-first-row {
     list-style-type: none;
     text-align: center;
-    justify-content: -5%;
-    
+    justify-content: -5%;  
+  }
+  .life-first-row{
+    block-size: 20%;
   }
   li.first-list img{
     width: 25%;
@@ -95,9 +97,10 @@ ul.header-list {
   .first-list {
     list-style-type: none; /* Remove default list styling */
     text-align: center; /* Center-align text */
-    margin-bottom: -3%;
+    margin-bottom: 0%;
     margin-top: 5%;
   }
+
   li.first-list:not(:last-child) {
     margin-right: -40%; /* Adjust the margin for all items except the last one */
   }
@@ -111,6 +114,13 @@ ul.header-list {
   .first-list span {
     display: block; /* Make the text a block-level element */
   }
+  ul.life-first-row {
+    list-style-type: none;
+    text-align: center;
+    margin-left: -20%;
+    
+  }
+
   ul.life-second-row{
     margin-left: -5%;
   }
@@ -125,7 +135,7 @@ ul.header-list {
     margin-left: -5%;
   }
   li.second-list:not(:last-child) {
-    margin-right: -40%; /* Adjust the margin for all items except the last one */
+    margin-right: -37%; /* Adjust the margin for all items except the last one */
   }
   .second-list a {
     display: block; /* Make the link a block-level element */
@@ -156,7 +166,7 @@ ul.header-list {
     margin-left: -5%;
   }
   li.third-list:not(:last-child) {
-    margin-right: -40%; /* Adjust the margin for all items except the last one */
+    margin-right: -37%; /* Adjust the margin for all items except the last one */
   }
   .third-list a {
     display: block; /* Make the link a block-level element */
