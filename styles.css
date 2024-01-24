@@ -3,58 +3,56 @@ h2 {
   margin-left: 50px;
 }
 ul.header-list {
-    list-style: none;
-    padding: 0;
-    text-align: right;
-    margin-right: 10cm;
-    margin-top:-50px;
-    text-size-adjust: larger;
+  list-style: none;
+  padding: 0;
+  text-align: right;
+  margin-right: 25%;
+  margin-top:-2%;
+  text-size-adjust: larger;
 
-   }
-/*
-li {
-    display: inline-block;
-    margin-left: 18px; 
-  }
-  */
-  li.header-list{
-    display: inline-block;
-    margin-left: 18px;
-  }
+ }
+ li.header-list{
+  display: inline-block;
+  margin-left: 18px;
+}
   li.icon-list{
     display: inline-block;
-    margin-left: 18px;
+    margin-left: 5%;
   }
   a {
     text-decoration: none; /* Remove underline from links */
     color: #04090f; /* Set the font color to blue (adjust as needed) */
-    font-size: 20px; /* Set the font size to 16 pixels (adjust as needed) */
+    font-size: 100%; /* Set the font size to 16 pixels (adjust as needed) */
   }
   a:hover {
     text-decoration: underline; /* Add underline on hover */
   }
   .circle-home-img {
-    border-radius: 80%;
     overflow: hidden;
-    width: 7cm;
-    height: 7cm;
-    margin-top: 5cm;
-    margin-left: 14cm;
+    width: 20%; /* Adjust the percentage as needed for a smaller circle */
+    height: 20%;
+    border-radius:50%;
+    margin-top: 10%;
+    margin-left: 40%;
+  }
+  .home-circle{
+    text-align: center;
+   
   }
   .circle-home-img img {
     width: 100%; /* Make the image fill the circle container */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Remove extra space below the image */
-    margin-top: -50px;
+    margin-top: -10%;
   }
   ul.home-icon-link {
     text-align: center;
-    size-adjust: 10px;
-    margin-left:-150px;
+    size-adjust: 20%;
+    margin-left:50%;
   }
   li.home-icon-link{
     display: inline-block;
-      margin-left: 5px;
+    margin-left: 40%;
   }
   img {
     width: 40px; /* Adjust the width of the icon */
@@ -65,17 +63,19 @@ li {
     display: flex;
   }
   .about-body-left {
-    margin-left: 2cm;
+    margin-left: 3%;
+
   }
   .about-body-right{
-    margin-top: 4cm;
-    margin-left: 2cm;
+    margin-top: 6%;
+    margin-left: -17%;
+    font-size: 100%;
   }
   li.about-list{
-    margin-bottom: 5px;
+    margin-bottom: 1%;
   }
   li.about-list:not(:last-child) {
-    margin-bottom: 20px; /* Adjust the margin for all items except the last one */
+    margin-bottom: 2%; /* Adjust the margin for all items except the last one */
   }
   .life-first-row{
     display: flex;
@@ -84,15 +84,22 @@ li {
   ul.life-first-row {
     list-style-type: none;
     text-align: center;
+    justify-content: -5%;
+    
   }
   li.first-list img{
-    width: 6cm;
-    height: 8cm;
+    width: 25%;
+    height: 25%;
 
   }
   .first-list {
     list-style-type: none; /* Remove default list styling */
     text-align: center; /* Center-align text */
+    margin-bottom: -3%;
+    margin-top: 5%;
+  }
+  li.first-list:not(:last-child) {
+    margin-right: -40%; /* Adjust the margin for all items except the last one */
   }
 
   /* Style for the linked image */
@@ -104,13 +111,21 @@ li {
   .first-list span {
     display: block; /* Make the text a block-level element */
   }
+  ul.life-second-row{
+    margin-left: -5%;
+  }
   li.second-list img{
-    width: 6cm;
-    height: 8cm;
+    width: 25%;
+    height: 25%;
   }
   .second-list{
     list-style-type: none; /* Remove default list styling */
     text-align: center;
+    margin-bottom: 0%;
+    margin-left: -5%;
+  }
+  li.second-list:not(:last-child) {
+    margin-right: -40%; /* Adjust the margin for all items except the last one */
   }
   .second-list a {
     display: block; /* Make the link a block-level element */
@@ -123,17 +138,25 @@ li {
   .life-second-row{
     display: flex;
   }
+  ul.life-third-row{
+    margin-left: -5%;
+  }
   .life-third-row{
     display: flex;
   }
 
   li.third-list img{
-    width: 6cm;
-    height: 8cm;
+    width: 25%;
+    height: 25%;
   }
   .third-list{
     list-style-type: none; /* Remove default list styling */
     text-align: center;
+    margin-bottom: -3%;
+    margin-left: -5%;
+  }
+  li.third-list:not(:last-child) {
+    margin-right: -40%; /* Adjust the margin for all items except the last one */
   }
   .third-list a {
     display: block; /* Make the link a block-level element */
