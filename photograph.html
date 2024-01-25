@@ -4,6 +4,9 @@
 <title>Hanlu Du</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="styles.css">
 <style>
 body,h1 {font-family: "Raleway", Arial, sans-serif}
@@ -23,15 +26,41 @@ h1 {letter-spacing: 6px}
           <li class = "header-list"><a href="index.html">Home</a></li>
           <li class = "header-list"><a href="about.html">About</a></li>
           <li class = "header-list"><a href="life.html">Life</a></li>
-          <li class = "header-list"><a href="#contact">Contact</a></li>
+          <li class = "header-list"><a href="project.html">Projects</a></li>
         </ul>
       </nav>
      
     </header>
 
     <body>
-        
-        
+      <button onclick="goBack()" style="margin-left: 10%;margin-top: 10%;">Go Back</button>
+
+      <script>
+          function goBack() {
+              window.history.back();
+          }
+      </script>
+
+      <!-- Photo Grid -->
+<div class="w3-row-padding" style="margin-bottom:128px;margin-top: 10%;">
+  <div class="w3-half">
+    <img src="pic/IMG_1694.png" style="width:100%;height:auto">
+    <img src="pic/IMG_1683.jpg" style="width:100%;height:auto">
+    <img src="pic/IMG_1636.png" style="width:100%;height:auto">
+    <img src="pic/IMG_8365.png" style="width:100%;height:auto">
+  
+    
+  </div>
+
+  <div class="w3-half">
+    <img src="pic/IMG_8282.png" style="width:100%;height:auto">
+    <img src="pic/IMG_1653.png" style="width:100%;height:auto">
+    <img src="pic/IMG_1062.png" style="width:100%;height:auto">
+    <img src="pic/IMG_1686.png" style="width:100%;height:auto">
+
+    
+  </div>
+</div>
     </body>
     
 

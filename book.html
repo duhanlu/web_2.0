@@ -23,14 +23,38 @@ h1 {letter-spacing: 6px}
           <li class = "header-list"><a href="index.html">Home</a></li>
           <li class = "header-list"><a href="about.html">About</a></li>
           <li class = "header-list"><a href="life.html">Life</a></li>
-          <li class = "header-list"><a href="#contact">Contact</a></li>
+          <li class = "header-list"><a href="project.html">Projects</a></li>
         </ul>
       </nav>
      
     </header>
 
     <body>
+      <button onclick="goBack()" style="margin-left: 10%;margin-top: 10%;">Go Back</button>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+      <p style="text-align: center;font-size: 130%; margin-top: 5%;">My Favorate Book!</p>
+      <div class="book">
+        <div><img src="pic/book1.jpg" alt="book" style="width: 35%;height: auto; margin-left: 35%; margin-top: 20%;"></div>
+        <div>
+          <p style="margin-left: 2%;margin-top: 8%;width: 70%;">“When you arise in the morning think of what a privilege it is to be alive, to think, to enjoy, to love ...”</p>
+          <p style="margin-left: 2%;">当你早上起来，想想活着，思考，享受，爱是多么荣幸</p>
+          <p style="margin-left: 3%;margin-top: 0%;">---- Meditations by Marcus Aurelius</p>
+        </div>
+      </div>
+
+      <div class="book">
+        <div><img src="pic/book2.jpg" alt="book" style="width:45%; height:auto; margin-left: 45%;margin-top: 15%;"></div>
+        <div>
+          <p style="width: 70%;margin-top: 5%;margin-left: 7%;">A Year of No Significance: The Ming Dynasty in Decline, is a most interesting history book I've ever read. Reading it is like reading a noval but it also reflect the core of politics with a piece of history.</p>
+          <p style="margin-left: 7%;">万历十五年 是一本很像小说的历史书， 但是却以一小段时间，反应出政治的核心</p>
+        </div>
         
+      </div>
         
     </body>
     
