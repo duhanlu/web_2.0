@@ -30,15 +30,60 @@ h1 {letter-spacing: 6px}
     </header>
 
     <body>
-      <button onclick="goBack()" style="margin-left: 10%;margin-top: 10%;">Go Back</button>
-
+      <p style="margin-left: 10%; font-size: xx-large;margin-left: 30%;">Favorite Book Showcase</p>
+      <button onclick="goBack()" style="margin-left: 10%;margin-top:1%;">Go Back</button>
+      <p style="margin-left: 10%;">Try to Click these pictures!</p>
+      <p style="margin-left: 10%;">I apologize I didn't make the flipping nicely rotate centered on the central line. I will adjust it sooooon!!!!!</p>
     <script>
         function goBack() {
             window.history.back();
         }
     </script>
-      <p>The Movie section is under construction</p>
-        
+     
+    <div class = "movie-section-1">
+      <div class="flashcard" onclick="flipCard(this)" style="margin-left: 10%; margin-top: 3%;">
+        <div class="card">
+          <div class="front">
+            <img src = "pic/movie1.jpg">
+          </div>
+          <div class="back">
+            <p>For even if I'm far away, I hold you in my heart. I sing a secret song to you each night we are apart... Remember me, though I have to travel far....</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flashcard" onclick="flipCard(this)" style="margin-left: -10%; margin-top: 3%;">
+        <div class="card">
+          <div class="front">
+            <img src="pic/movie2.jpg">
+          </div>
+          <div class="back">
+            <p>This is the answer to the question.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flashcard" onclick="flipCard(this)" style="margin-left: 20%; margin-top: 6%;">
+      <div class="card">
+        <div class="front">
+          <img src="pic/movie3.png" style="width: 50%; height: auto">
+        </div>
+        <div class="back">
+          <p>Can you tell me what's the truth.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+      
+
+      
+
+      <script>
+        function flipCard(card) {
+          card.querySelector('.card').style.transform = card.querySelector('.card').style.transform === 'rotateY(180deg)' ? 'rotateY(0deg)' : 'rotateY(180deg)';
+        }
+      </script>
     </body>
     
 
